@@ -38,31 +38,32 @@ Before performing the analysis, I will clean and explore the dataset. This step 
 |        2 |           2368 |
 |        3 |           7172 |
 |        4 |          37307 |
-<iframe src="assets/Univariate_Analysis_2.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/Univariate_Analysis_2.html" width=600 height=400 frameBorder=0></iframe>
 
 ***Bivariate Analysis***
 
-<iframe src="assets/Bivariate_Analysis_1.html" width=800 height=600 frameBorder=0></iframe>
-<iframe src="assets/Bivariate_Analysis_2.html" width=800 height=600 frameBorder=0></iframe>
-<iframe src="assets/Bivariate_Analysis_3.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/Bivariate_Analysis_1.html" width=600 height=400 frameBorder=0></iframe>
+<iframe src="assets/Bivariate_Analysis_2.html" width=600 height=400 frameBorder=0></iframe>
+<iframe src="assets/Bivariate_Analysis_3.html" width=600 height=400 frameBorder=0></iframe>
 
 ***Interesting Aggregates***
 
 This agregates take the mean of the rating for each items and assign to the minutes that take each item to make and list it in an assencding order.
 
+First five rows from the sorted dataset.
 | name                            |   mean_rating |   minutes |
 |:--------------------------------|--------------:|----------:|
 | vegan parmesan                  |           5   |         0 |
 | southern comfort punch          |           2.5 |         1 |
 | s o s dip  a k a dried beef dip |           5   |         1 |
 | s o s   beverage                |           5   |         1 |
-| russian root beer               |           4   |         1 |
-                               ..........
-| peach cordial                   |             3 |      86415|
-| homemade vanilla extract        |             0 |     129600|
-| homemade vanilla                |             5 |     259205|
-| homemade fruit liquers          |             4 |     288000|
-| how to preserve a husband       |             5 | 1.0512e+06|
+| russian root beer               |           4   |         1 |   
+Last five rows from the sorted dataset.
+| peach cordial                   |           3   |      86415|
+| homemade vanilla extract        |           0   |     129600|
+| homemade vanilla                |           5   |     259205|
+| homemade fruit liquers          |           4   |     288000|
+| how to preserve a husband       |           5   | 1.0512e+06|
 83627 rows × 2 columns
 
 This another analysis put the category into the minutes it takes to make the food and calculate the mean of the rating for each category.
@@ -81,7 +82,7 @@ In this phase, I will assess the missingness in the dataset, specifically focusi
 ***NMAR Analysis***
 
 ***Missingness Dependency***
-<iframe src="assets/Assessment_of_Missingness.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/Assessment_of_Missingness.html" width=600 height=400 frameBorder=0></iframe>
 
 ## Hypothesis Testing
 
