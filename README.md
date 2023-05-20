@@ -2,8 +2,8 @@
 
 by Su Aye 
 
+## Cooking Time and Average Rating Analysis
 ---
-
 ## Introduction
 In this project, I aim to investigate the relationship between cooking time and the average rating of recipes. The cooking time of a recipe is the duration it takes to prepare and cook the dish, while the average rating represents the overall satisfaction or quality of the recipe as rated by users. By analyzing this relationship, I can gain insights into whether cooking time influences the average rating of recipes.
 
