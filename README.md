@@ -20,7 +20,7 @@ Before performing the analysis, I will clean and explore the dataset. This step 
 ***Data Cleaning***
 
 ***Univariate Analysis***
-<iframe src="assets/Univariate_Analysis_1.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/Univariate_Analysis_1.html" width=600 height=400 frameBorder=0></iframe>
 <iframe src="assets/Univariate_Analysis_2.html" width=800 height=600 frameBorder=0></iframe>
 
 ***Bivariate Analysis***
