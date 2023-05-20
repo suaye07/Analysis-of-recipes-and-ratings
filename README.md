@@ -50,7 +50,7 @@ Before performing the analysis, I will clean and explore the dataset. This step 
 
 This agregates take the mean of the rating for each items and assign to the minutes that take each item to make and list it in an assencding order.
 
-First five rows from the sorted dataset.
+# First five rows from the sorted dataset.
 | name                            |   mean_rating |   minutes |
 |:--------------------------------|--------------:|----------:|
 | vegan parmesan                  |           5   |         0 |
