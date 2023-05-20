@@ -33,6 +33,8 @@ This analysis performs a univariate analysis on the 'rating' column. It calculat
 
 <iframe src="assets/Univariate_Analysis_1.html" width=600 height=400 frameBorder=0></iframe>
 
+This second analysis a univariate analysis on the 'rating' column. It calculates the count of recipes for each rating and creates a pie chart to visualize the distribution of these counts. This analysis allows you to understand the distribution of recipe counts across different ratings. The resulting pie chart provides a visual representation of this distribution.
+
 |   rating |   recipe_count |
 |---------:|---------------:|
 |        0 |          15035 |
@@ -46,12 +48,21 @@ This analysis performs a univariate analysis on the 'rating' column. It calculat
 ***Bivariate Analysis***
 
 <iframe src="assets/Bivariate_Analysis_1.html" width=600 height=400 frameBorder=0></iframe>
+Correlation coefficient between Cooking Time and Average Rating: -0.00399
+A negative correlation coefficient shows an inverse relationship between the two variables being analyzed. In this analysis between cooking time and average rating of recipes, a negative correlation coefficient suggests that as the cooking time increases, the average rating tends to decrease, and vice versa. However, it's -0.00399 which indicates the very less impact between this two cooking time and rating correlation interact.
+
 <iframe src="assets/Bivariate_Analysis_2.html" width=600 height=400 frameBorder=0></iframe>
+Correlation coefficient between Cooking Time and Steps to make: 0.01169
+This also indicates a very weak positive correlation. Overall, the analysis suggests a negligible relationship between cooking time and the number of steps to make in the dataset.
+
+
 <iframe src="assets/Bivariate_Analysis_3.html" width=800 height=500 frameBorder=0></iframe>
+This analysis is to identify the top-rated recipes with a rating of 5, cooking time less than 20 minutes, and submitted after January 1, 2018. It then creates a horizontal bar plot to compare the cooking time and number of steps for these recipes.
+The purpose of this analysis is to identify highly rated recipes that require a short cooking time. By focusing on recipes with a rating of 5 and a cooking time less than 20 minutes, you can find quick and well-received recipes. Additionally, by considering recipes submitted after January 1, 2018, you narrow down the analysis to more recent recipes.
+The resulting bar plot allows for a visual comparison of the cooking time and number of steps for each recipe. This helps identify recipes that achieve a high rating with minimal cooking time and a simple preparation process.
+Overall, this analysis aims to provide insights into top-rated, quick-to-make recipes, helping users find appealing options that require minimal time and effort in the kitchen.
 
 ***Interesting Aggregates***
-
-This agregates take the mean of the rating for each items and assign to the minutes that take each item to make and list it in an assencding order.
 
 ## First five rows from the sorted dataset.
 
@@ -75,7 +86,7 @@ This agregates take the mean of the rating for each items and assign to the minu
 
 83627 rows × 2 columns
 
-This another analysis put the category into the minutes it takes to make the food and calculate the mean of the rating for each category.
+This agregates take the mean of the rating for each items and assign to the minutes that take each item to make and list it in an assencding order. The purpose of this analysis is to gain insights into the relationship between cooking time and the average rating of recipes. By grouping the data by recipe name and calculating the average cooking time and mean rating, you can examine how these variables vary across different recipes. The pivot table provides a concise summary of the aggregate statistics, allowing for easy comparison and identification of recipes with shorter or longer cooking times and their corresponding average ratings.
 
 | cooking_time_category   |   mean_rating |
 |:------------------------|--------------:|
@@ -83,6 +94,10 @@ This another analysis put the category into the minutes it takes to make the foo
 | 30-60                   |       4.36716 |
 | 60-90                   |       4.31028 |
 | 90+                     |       4.22396 |
+
+This another analysis put the category into the minutes it takes to make the food and calculate the mean of the rating for each category. The purpose of this analysis is to examine the relationship between cooking time and average rating, grouped into different time categories. By categorizing the recipes based on cooking time intervals (0-30 minutes, 30-60 minutes, 60-90 minutes, and 90+ minutes), you can explore whether there are any patterns or trends in the average ratings across these categories.
+
+Overall, this analysis helps understand if there is any correlation between cooking time and the average rating of recipes, enabling you to identify potential trends or preferences among users based on different cooking time categories.
 
 ## Assessment of Missingness
 
@@ -93,7 +108,6 @@ In this phase, I will assess the missingness in the dataset, specifically focusi
 
 I believe minutes column, the cooking time in minutes might likely be fall into NMAR category. It is possible that recipes with longer cooking times might have a higher chance of missing ratings or reviews. For example, users may be less inclined to review or rate recipes that require a longer time investment.
 To determine if the missingness in the "mean_rating" column is NMAR, additional data such as user demographics, recipe complexity, or user engagement metrics could be useful. These variables might help explain the missingness pattern and shed light on whether it is related to the missing ratings themselves or to other unobserved factors.
-
 It is important to conduct further analysis and investigate the relationship between the missingness and potential explanatory variables to determine if the missingness in the "mean_rating" column is truly NMAR or if it can be explained by other factors, making it MAR (Missing at Random) or MCAR (Missing Completely at Random).
 
 ***Missingness Dependency***
