@@ -40,7 +40,7 @@ To address my analysis question, "What is the relationship between the cooking t
 Null Hypothesis:The relationship between the cooking time and average rating of recipes is the greater the rating is the less cooking prep time to fullfill customer satisfaction.
 Alternative Hypothesis: The relationship between the cooking time and average rating of recipes is the greater the rating is the more cooking prep time to prepare the better food.
 
-Result: Correlation coefficient: -0.003993247071403871
+Result: Correlation coefficient: -0.003993247071403871,
         P-value: 0.053182722882732604
 
 Test Statistic: Mean Proportion of the cooking time and mean proportion of the rating
@@ -49,6 +49,7 @@ p-value: 0.05318
 Conclusion: Since p-value is >0.05, we fail to reject the null hypothesis.
 
 ## Conclusion 
+
 Based on the analysis and the obtained results, we fail to reject the null hypothesis. The null hypothesis states that the greater the rating is, the less cooking prep time required to fulfill customer satisfaction. However, we did not find sufficient evidence to support this claim.
 
 The alternative hypothesis suggests that the greater the rating is, the more cooking prep time is needed to prepare better food. Although this alternative hypothesis was not directly tested, the lack of significant correlation between cooking time and average rating implies that there is no clear relationship supporting this claim.
