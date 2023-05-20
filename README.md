@@ -83,10 +83,13 @@ This another analysis put the category into the minutes it takes to make the foo
 | 90+                     |       4.22396 |
 
 ## Assessment of Missingness
+To determine if there is a column in the given dataset that exhibits NMAR (Not Missing at Random) behavior, we need to analyze the missingness patterns and understand if the missingness is related to the missing values themselves or to other unobserved variables.
 
 In this phase, I will assess the missingness in the dataset, specifically focusing on the variables related to cooking time and average rating. I will investigate if there are any patterns or correlations between missing values and other variables. Various techniques such as visualization and statistical tests will be utilized to evaluate the missingness.
 
 ***NMAR Analysis***
+
+It is important to conduct further analysis and investigate the relationship between the missingness and potential explanatory variables to determine if the missingness in the "mean_rating" column is truly NMAR or if it can be explained by other factors, making it MAR (Missing at Random) or MCAR (Missing Completely at Random).
 
 ***Missingness Dependency***
 <iframe src="assets/Assessment_of_Missingness.html" width=600 height=400 frameBorder=0></iframe>
