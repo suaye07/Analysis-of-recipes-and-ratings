@@ -19,6 +19,11 @@ Before performing the analysis, I will clean and explore the dataset. This step 
 
 ***Data Cleaning***
 
+First I perform data cleaning and merging of two datasets, 'raw_interactions' and 'raw_recipes', to create a combined dataset named 'combined'. In the first step, the code merges the two datasets based on the common 'recipe_id' column, removing the duplicate 'id' column in the process. Next, the code handles data quality issues by converting the 'rating' column values to NaN (missing values) if they are equal to "0". This is done using a lambda function applied to the 'rating' column. After the data cleaning, the code proceeds to merge the 'combined' dataset with the 'average_rating_per_recipe' dataset. This step adds the average rating information for each recipe based on the 'recipe_id' column.
+Finally, unnecessary columns are dropped, and the 'rating_y' column is renamed to 'mean_rating' to improve clarity. The resulting dataset, named 'merged_data', is now ready for further analysis and exploration of the relationship between recipe attributes and average ratings.
+Overall, this data cleaning process ensures data integrity, handles missing values, and combines relevant information from multiple datasets, setting the foundation for accurate and comprehensive analysis.
+From this cleaned data, I perform the below analysis to explore relationships, patterns, and characteristics of the dataset, providing a comprehensive understanding of the data and facilitating further insights and decision-making.
+
 ***Univariate Analysis***
 
 This analysis performs a univariate analysis on the 'rating' column. It calculates the average rating per recipe based on the number of ingredients and creates a histogram to visualize the distribution of these average ratings. This analysis allows you to understand the relationship between the number of ingredients and the average rating of recipes. The resulting histogram provides insights into the distribution of average ratings.
