@@ -20,6 +20,9 @@ Before performing the analysis, I will clean and explore the dataset. This step 
 ***Data Cleaning***
 
 ***Univariate Analysis***
+<iframe src="assets/US_Map_plot.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/US_Map_plot.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/US_Map_plot.html" width=800 height=600 frameBorder=0></iframe>
 
 ***Bivariate Analysis***
 
