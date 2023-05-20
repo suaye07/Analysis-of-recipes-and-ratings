@@ -45,7 +45,7 @@ Before performing the analysis, I will clean and explore the dataset. This step 
 
 <iframe src="assets/Bivariate_Analysis_1.html" width=600 height=400 frameBorder=0></iframe>
 <iframe src="assets/Bivariate_Analysis_2.html" width=600 height=400 frameBorder=0></iframe>
-<iframe src="assets/Bivariate_Analysis_3.html" width=600 height=400 frameBorder=0></iframe>
+<iframe src="assets/Bivariate_Analysis_3.html" width=800 height=500 frameBorder=0></iframe>
 
 ***Interesting Aggregates***
 
