@@ -20,7 +20,24 @@ Before performing the analysis, I will clean and explore the dataset. This step 
 ***Data Cleaning***
 
 ***Univariate Analysis***
+
+|   n_ingredients |   rating |
+|----------------:|---------:|
+|               1 |  4.30208 |
+|               2 |  4.32877 |
+|               3 |  4.44194 |
+|               4 |  4.43527 |
+|               5 |  4.39844 |
+
 <iframe src="assets/Univariate_Analysis_1.html" width=600 height=400 frameBorder=0></iframe>
+
+|   rating |   recipe_count |
+|---------:|---------------:|
+|        0 |          15035 |
+|        1 |           2870 |
+|        2 |           2368 |
+|        3 |           7172 |
+|        4 |          37307 |
 <iframe src="assets/Univariate_Analysis_2.html" width=800 height=600 frameBorder=0></iframe>
 
 ***Bivariate Analysis***
@@ -30,6 +47,32 @@ Before performing the analysis, I will clean and explore the dataset. This step 
 <iframe src="assets/Bivariate_Analysis_3.html" width=800 height=600 frameBorder=0></iframe>
 
 ***Interesting Aggregates***
+
+This agregates take the mean of the rating for each items and assign to the minutes that take each item to make and list it in an assencding order.
+
+| name                            |   mean_rating |   minutes |
+|:--------------------------------|--------------:|----------:|
+| vegan parmesan                  |           5   |         0 |
+| southern comfort punch          |           2.5 |         1 |
+| s o s dip  a k a dried beef dip |           5   |         1 |
+| s o s   beverage                |           5   |         1 |
+| russian root beer               |           4   |         1 |
+                               ..........
+| peach cordial                   |             3 |      86415|
+| homemade vanilla extract        |             0 |     129600|
+| homemade vanilla                |             5 |     259205|
+| homemade fruit liquers          |             4 |     288000|
+| how to preserve a husband       |             5 | 1.0512e+06|
+83627 rows × 2 columns
+
+This another analysis put the category into the minutes it takes to make the food and calculate the mean of the rating for each category.
+
+| cooking_time_category   |   mean_rating |
+|:------------------------|--------------:|
+| 0-30                    |       4.44887 |
+| 30-60                   |       4.36716 |
+| 60-90                   |       4.31028 |
+| 90+                     |       4.22396 |
 
 ## Assessment of Missingness
 
