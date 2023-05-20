@@ -25,6 +25,10 @@ Before performing the analysis, I will clean and explore the dataset. This step 
 
 ***Bivariate Analysis***
 
+<iframe src="assets/Bivariate_Analysis_1.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/Bivariate_Analysis_2.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="assets/Bivariate_Analysis_3.html" width=800 height=600 frameBorder=0></iframe>
+
 ***Interesting Aggregates***
 
 ## Assessment of Missingness
@@ -34,6 +38,7 @@ In this phase, I will assess the missingness in the dataset, specifically focusi
 ***NMAR Analysis***
 
 ***Missingness Dependency***
+<iframe src="assets/Assessment_of_Missingness.html" width=800 height=600 frameBorder=0></iframe>
 
 ## Hypothesis Testing
 
