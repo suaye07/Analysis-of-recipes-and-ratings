@@ -62,11 +62,13 @@ This agregates take the mean of the rating for each items and assign to the minu
 
 # Last five rows from the sorted dataset.
 
-| peach cordial                   |           3   |      86415|
-| homemade vanilla extract        |           0   |     129600|
-| homemade vanilla                |           5   |     259205|
-| homemade fruit liquers          |           4   |     288000|
-| how to preserve a husband       |           5   | 1.0512e+06|
+| name                      |   mean_rating |         minutes |
+|:--------------------------|--------------:|----------------:|
+| peach cordial             |             3 |  86415          |
+| homemade vanilla extract  |             0 | 129600          |
+| homemade vanilla          |             5 | 259205          |
+| homemade fruit liquers    |             4 | 288000          |
+| how to preserve a husband |             5 |      1.0512e+06 |
 
 83627 rows × 2 columns
 
