@@ -21,6 +21,8 @@ Before performing the analysis, I will clean and explore the dataset. This step 
 
 ***Univariate Analysis***
 
+This analysis performs a univariate analysis on the 'rating' column. It calculates the average rating per recipe based on the number of ingredients and creates a histogram to visualize the distribution of these average ratings. This analysis allows you to understand the relationship between the number of ingredients and the average rating of recipes. The resulting histogram provides insights into the distribution of average ratings.
+
 |   n_ingredients |   rating |
 |----------------:|---------:|
 |               1 |  4.30208 |
