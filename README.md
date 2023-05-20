@@ -83,11 +83,14 @@ This another analysis put the category into the minutes it takes to make the foo
 | 90+                     |       4.22396 |
 
 ## Assessment of Missingness
-To determine if there is a column in the given dataset that exhibits NMAR (Not Missing at Random) behavior, we need to analyze the missingness patterns and understand if the missingness is related to the missing values themselves or to other unobserved variables.
 
 In this phase, I will assess the missingness in the dataset, specifically focusing on the variables related to cooking time and average rating. I will investigate if there are any patterns or correlations between missing values and other variables. Various techniques such as visualization and statistical tests will be utilized to evaluate the missingness.
 
+
 ***NMAR Analysis***
+
+I believe minutes column, the cooking time in minutes might likely be fall into NMAR category. It is possible that recipes with longer cooking times might have a higher chance of missing ratings or reviews. For example, users may be less inclined to review or rate recipes that require a longer time investment.
+To determine if the missingness in the "mean_rating" column is NMAR, additional data such as user demographics, recipe complexity, or user engagement metrics could be useful. These variables might help explain the missingness pattern and shed light on whether it is related to the missing ratings themselves or to other unobserved factors.
 
 It is important to conduct further analysis and investigate the relationship between the missingness and potential explanatory variables to determine if the missingness in the "mean_rating" column is truly NMAR or if it can be explained by other factors, making it MAR (Missing at Random) or MCAR (Missing Completely at Random).
 
