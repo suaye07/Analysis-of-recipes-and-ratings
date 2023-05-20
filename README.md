@@ -59,12 +59,15 @@ This agregates take the mean of the rating for each items and assign to the minu
 | s o s dip  a k a dried beef dip |           5   |         1 |
 | s o s   beverage                |           5   |         1 |
 | russian root beer               |           4   |         1 |   
+
 # Last five rows from the sorted dataset.
+
 | peach cordial                   |           3   |      86415|
 | homemade vanilla extract        |           0   |     129600|
 | homemade vanilla                |           5   |     259205|
 | homemade fruit liquers          |           4   |     288000|
 | how to preserve a husband       |           5   | 1.0512e+06|
+
 83627 rows × 2 columns
 
 This another analysis put the category into the minutes it takes to make the food and calculate the mean of the rating for each category.
