@@ -37,6 +37,24 @@ In this phase, I will assess the missingness in the dataset, specifically focusi
 
 To address my analysis question, "What is the relationship between the cooking time and average rating of recipes?", I will perform hypothesis testing. I will formulate appropriate null and alternative hypotheses and conduct statistical tests to determine if there is a significant relationship between cooking time and average rating. The results of the hypothesis testing will provide evidence for or against the existence of a relationship between these variables.
 
-## Conclusion 
+Null Hypothesis:The relationship between the cooking time and average rating of recipes is the greater the rating is the less cooking prep time to fullfill customer satisfaction.
+Alternative Hypothesis: The relationship between the cooking time and average rating of recipes is the greater the rating is the more cooking prep time to prepare the better food.
 
-By conducting the above steps, I aim to gain insights into the relationship between cooking time and the average rating of recipes. The findings from this analysis will help me understand whether cooking time plays a role in determining the quality or satisfaction of recipes.
+Result: Correlation coefficient: -0.003993247071403871
+        P-value: 0.053182722882732604
+
+Test Statistic: Mean Proportion of the cooking time and mean proportion of the rating
+Siginificance level: 0.05
+p-value: 0.05318
+Conclusion: Since p-value is >0.05, we fail to reject the null hypothesis.
+
+## Conclusion 
+Based on the analysis and the obtained results, we fail to reject the null hypothesis. The null hypothesis states that the greater the rating is, the less cooking prep time required to fulfill customer satisfaction. However, we did not find sufficient evidence to support this claim.
+
+The alternative hypothesis suggests that the greater the rating is, the more cooking prep time is needed to prepare better food. Although this alternative hypothesis was not directly tested, the lack of significant correlation between cooking time and average rating implies that there is no clear relationship supporting this claim.
+
+In other words, the analysis did not find a strong linear relationship between cooking time and average rating. The correlation coefficient was found to be approximately -0.004, which is very close to zero. This indicates a weak or negligible linear relationship between the two variables.
+
+Therefore, based on the analysis, we cannot conclude that there is a significant relationship between cooking time and average rating of recipes. Other factors, such as recipe quality, ingredients, or cooking techniques, may have a stronger influence on the average rating of recipes rather than just the cooking time alone.
+
+By conducting the above steps, I aim to gain insights into the relationship between cooking time and the average rating of recipes. The findings from this analysis help me understand whether cooking time plays a role in determining the quality or satisfaction of recipes.
