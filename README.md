@@ -111,7 +111,14 @@ To determine if the missingness in the "mean_rating" column is NMAR, additional 
 It is important to conduct further analysis and investigate the relationship between the missingness and potential explanatory variables to determine if the missingness in the "mean_rating" column is truly NMAR or if it can be explained by other factors, making it MAR (Missing at Random) or MCAR (Missing Completely at Random).
 
 ***Missingness Dependency***
+
+
 <iframe src="assets/Assessment_of_Missingness.html" width=600 height=400 frameBorder=0></iframe>
+p-value: 0.07
+
+The purpose of this analysis is to explore whether the missingness of the 'description' column is related to the values in the 'n_steps' column. By examining the distribution of missing and non-missing values in the 'description' column for different groups of 'n_steps', we can assess if there is a systematic relationship between these variables. A permutation test is performed by randomly shuffling the 'n_steps' variable and computing the total variation distance (TVD) between the shuffled and original distributions. This process is repeated multiple times to create a null distribution of TVD values. The observed TVD from the original data is compared to the null distribution to compute a p-value, indicating the likelihood of observing such or more extreme TVD values under the null hypothesis of no association.
+
+Analysis: Since p-value of 0.07, it means that there is a 7% chance of observing the observed total variation distance (TVD) or a more extreme TVD under the null hypothesis of no association between the 'n_steps' variable and the missingness of the 'description' column. This suggests that there is not strong enough evidence to conclude a significant association between the 'n_steps' variable and the missingness of the 'description' column. However, it is worth noting that the interpretation of p-values can also depend on the specific context and the desired level of significance for the analysis.
 
 ## Hypothesis Testing
 
